@@ -60,7 +60,9 @@ describe "Simon says" do
     it "returns the first several letters" do
       s = "abcdefg"
       expect(start_of_word(s, 1)).to eq("a")
+      s = "abcdefg"
       expect(start_of_word(s, 2)).to eq("ab")
+      s = "abcdefg"
       expect(start_of_word(s, 3)).to eq("abc")
     end
   end
